@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-eqiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>charan's website</title>
+  <link rel="stylesheet" href="business.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <i class="fa-solid fa-bolt"></i><span>FIRED-L</span>
+          <ul>
+            <li><a  data-oas="fadeup" data-aos-delay="100" href="#">SHOP</a></li>
+            <li><a  data-oas="fadeup" data-aos-delay="500" href="#">PRODUCT</a></li>
+            <li><a  data-oas="fadeup" data-aos-delay="1000"href="#">FREEBIES</a></li>
+          </ul>
+          <div class="SHOP">
+            <div class="bars">
+              <i class="fa-solid fa-bars" style="color: #1f5151;"></i>
+              <i class="fa-solid fa-cart-shopping" style="color: #100f0f;"></i>
+
+            </div>
+          </div>
+        </div>
+        <div class="hero">
+          <div class="information" data-oas="fade-left" data-aos-duration="2000">
+            <h1>NEED A STRENGTH
+              <span> OF ENERGY</span>
+            </h1>
+            <hs>
+              Try a new caffinated<span>energy drink</span>that will make you fell lik thundering
+            </hs>
+            <button>BUY NOW</button>
+            <div class="sicons">
+              <i class="fa-solid fa-bolt"></i>
+              <i class="fa-solid fa-mug-hot" style="color: #121212;"></i>
+              <i class="fa-solid fa-temperature-three-quarters"></i>
+            </div>
+            <div class="potantial">
+              <div>
+                <P>CAFFINE<span>35mg</span></P>
+                <span class="level1"></span>
+              </div>
+              <div>
+                <P>SUGAR<span>39mg</span></P>
+                <span class="level2"></span>
+              </div>
+              <div>
+                <P>CALORIES<span>170cal</span></P>
+                <span class="level3"></span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="file:///C:/Users/91961/Pictures/tin2.jpg" alt="">
+          </div>
+          <div class="about" data-oas="fade-right" data-aos-duration="2000">
+            <button>DON'T SATTLE<span>FOR ORDINARY</span></button>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus deserunt libero? Blanditiis, ex
+              saepe quod ea libero consequuntur doloribus sint corrupti eligendi praesentium omnis obcaecati veritatis
+              aut quas 
+            </P>
+            <h2>
+              18+
+            </h2>
+            <h6>
+              Age restricted
+            </h6>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script> "https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"</script>
+  <script>
+    AOS.init();
+    let bars = document.querySelector(".bars")
+    let menu = document.querySelector("ul")
+
+    bars.addEventlistener("click",function(){
+      menu.clasList.toggle("show")
+    })
+  </script>
